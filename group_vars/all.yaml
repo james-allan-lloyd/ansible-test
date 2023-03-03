@@ -1,0 +1,10 @@
+workload:
+  stream-app-a:
+    user:
+      test:
+        username: TestUser
+        password: TestUser
+      staging: 
+        username: StagingUser
+        password: StagingUser
+  
