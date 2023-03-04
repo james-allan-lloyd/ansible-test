@@ -6,7 +6,7 @@
     db:
       some_dbsome_user:
         name: foo
-    _db_username: "{{ workload[app].user[user].username }}"
+    _db_username: "{{ workload[app.name].user[app.user].username }}"
     # _db_username: "{{ '{{ db.' + db_val + user + '.name }}' }}"
   tasks:
     - set_fact:
